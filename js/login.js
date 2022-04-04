@@ -48,7 +48,7 @@
         loginPwd: loginPwdValue,
       },
     });
-    res && window.location.replace("/index.html");
+    res && window.location.replace(baseUrl+"/index.html");
   }
 
   //所有函数入口

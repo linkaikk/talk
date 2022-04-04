@@ -39,7 +39,7 @@ async function fetchFn({ url, method = "GET", params = {} }) {
       if (result.status === 401) {
         window.alert("权限token不正确");
         sessionStorage.removeItem("token");
-        window.location.replace("/login.html");
+        window.location.replace(baseUrl+"/login.html");
         return;
       }
       window.alert(result.msg);

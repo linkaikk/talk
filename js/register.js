@@ -90,7 +90,7 @@
       return;
     }
     window.alert("注册成功");
-    window.location.replace("/");
+    window.location.replace(baseUrl+"/index.html");
   }
 
   //验证表单函数
